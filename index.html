@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Privacy policy for Good Work Garden. Your good works, notes, photos and garden stay on your device.">
+<meta name="robots" content="index, follow">
+<title>Good Work Garden Privacy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+  :root {
+    --teal:      #0E5C55;
+    --teal-mid:  #2E9E86;
+    --ink:       #0B2E2A;
+    --body:      #24413C;
+    --muted:     #5C7A73;
+    --rule:      #CFE3DA;
+    --ground:    #F4FBF7;
+    --panel:     #FFFFFF;
+    --panel-alt: #E9F5EE;
+    --gold:      #D99A2B;
+    --display: 'Nunito', ui-rounded, 'Segoe UI', system-ui, sans-serif;
+    --serif: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --teal:      #7FD0AC;
+      --teal-mid:  #58BE9C;
+      --ink:       #EAF6F0;
+      --body:      #C3DBD2;
+      --muted:     #8AA9A0;
+      --rule:      #23443D;
+      --ground:    #071C19;
+      --panel:     #0D2A26;
+      --panel-alt: #10332D;
+      --gold:      #F2C14E;
+    }
+  }
+  :root[data-theme="dark"] {
+    --teal:      #7FD0AC;
+    --teal-mid:  #58BE9C;
+    --ink:       #EAF6F0;
+    --body:      #C3DBD2;
+    --muted:     #8AA9A0;
+    --rule:      #23443D;
+    --ground:    #071C19;
+    --panel:     #0D2A26;
+    --panel-alt: #10332D;
+    --gold:      #F2C14E;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--body);
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.66;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding-block: 0 72px; padding-left: 20px; padding-right: 20px; }
+
+  header.masthead {
+    background: linear-gradient(118deg, #0E5C55 0%, #2E9E86 62%, #7FD0AC 100%);
+    color: #fff;
+    padding-block: 52px 44px;
+    padding-left: 20px; padding-right: 20px;
+    margin-bottom: 44px;
+  }
+  .masthead .inner { max-width: 720px; margin: 0 auto; }
+  .eyebrow {
+    font-family: var(--display); font-weight: 800; font-size: 12px;
+    letter-spacing: .16em; text-transform: uppercase;
+    color: rgba(255,255,255,.82); margin: 0 0 14px;
+  }
+  h1 {
+    font-family: var(--display); font-weight: 900; font-size: clamp(34px, 7vw, 52px);
+    line-height: 1.04; letter-spacing: -1.2px; margin: 0; color: #fff;
+    text-wrap: balance;
+  }
+  .masthead p.sub {
+    font-family: var(--display); font-weight: 700;
+    font-size: clamp(16px, 3.2vw, 19px); line-height: 1.45;
+    color: rgba(255,255,255,.93); margin: 16px 0 0; max-width: 34em;
+  }
+  .stamp {
+    font-family: var(--display); font-weight: 700; font-size: 13px;
+    color: rgba(255,255,255,.78); margin: 24px 0 0;
+  }
+
+  h2 {
+    font-family: var(--display); font-weight: 800;
+    font-size: clamp(21px, 4vw, 26px); line-height: 1.22; letter-spacing: -.4px;
+    color: var(--ink); margin: 46px 0 14px; text-wrap: balance;
+  }
+  h2:first-of-type { margin-top: 0; }
+  h3 {
+    font-family: var(--display); font-weight: 800; font-size: 16px;
+    color: var(--ink); margin: 26px 0 8px;
+  }
+  p { margin: 0 0 15px; }
+  a { color: var(--teal-mid); text-underline-offset: 2px; }
+  a:focus-visible, summary:focus-visible { outline: 2px solid var(--teal-mid); outline-offset: 3px; border-radius: 3px; }
+  strong { color: var(--ink); font-weight: 600; }
+  ul { margin: 0 0 15px; padding-left: 20px; }
+  li { margin-bottom: 7px; }
+
+  /* The lead panel — the one thing most readers need */
+  .summary {
+    background: var(--panel-alt);
+    border-left: 4px solid var(--teal-mid);
+    padding: 26px 26px 12px;
+    margin-bottom: 8px;
+  }
+  .summary h2 { margin-top: 0; font-size: 20px; }
+  .summary p:last-child { margin-bottom: 14px; }
+
+  /* Data / location table — this pairing IS the substance of the policy */
+  .tablewrap { overflow-x: auto; margin: 0 0 18px; }
+  table { border-collapse: collapse; width: 100%; font-size: 15.5px; min-width: 460px; }
+  caption {
+    font-family: var(--display); font-weight: 700; font-size: 13px;
+    color: var(--muted); text-align: left; padding-bottom: 10px;
+  }
+  th, td { text-align: left; padding: 11px 14px 11px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th {
+    font-family: var(--display); font-weight: 800; font-size: 12px;
+    letter-spacing: .1em; text-transform: uppercase; color: var(--muted);
+  }
+  td:first-child { color: var(--ink); font-weight: 600; width: 44%; }
+
+  .note {
+    border: 1px solid var(--rule); border-top: 3px solid var(--gold);
+    background: var(--panel); padding: 20px 22px 8px; margin: 26px 0;
+  }
+  .note h3 { margin-top: 0; }
+
+  footer {
+    margin-top: 56px; padding-top: 22px; border-top: 1px solid var(--rule);
+    font-family: var(--display); font-size: 14px; color: var(--muted);
+  }
+  footer a { font-weight: 700; }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="inner">
+    <p class="eyebrow">Good Work Garden</p>
+    <h1>Privacy Policy</h1>
+    <p class="sub">Good Work Garden keeps what you write, photograph and grow on your own phone. There is no account, and there is no server of mine for it to be sent to.</p>
+    <p class="stamp">Last updated 22 September 2026</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="summary">
+    <h2>The short version</h2>
+    <p>Your good works, your notes, your photos and your garden are written to storage on your device and stay there. I never receive them. I have no server, you never make an account, and there is nothing for me to log in to and read.</p>
+    <p>The one part of the app that talks to anyone else is advertising, which is handled by Google. That is described in full below.</p>
+    <p>Deleting the app deletes everything it kept.</p>
+  </section>
+
+  <h2>Who this is</h2>
+  <p>Good Work Garden is made by Faraz Ahmed Abir, an independent developer. In this policy, "the app" means Good Work Garden on Android and iOS, and "I" means me, the developer.</p>
+  <p>If anything here is unclear, write to me at <a href="mailto:farazahmedabir09@gmail.com">farazahmedabir09@gmail.com</a>.</p>
+
+  <h2>What the app keeps, and where it keeps it</h2>
+  <p>Everything in the table below is stored in the app's own private storage area on your device. On both Android and iOS the operating system walls that area off from other apps.</p>
+
+  <div class="tablewrap">
+    <table>
+      <caption>All of this is written locally. None of it is transmitted.</caption>
+      <thead>
+        <tr><th scope="col">What</th><th scope="col">Where it lives</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>The good works you record — title, duration, date</td><td>A database file inside the app's private storage</td></tr>
+        <tr><td>The plants in your garden and which good work grew each one</td><td>The same database</td></tr>
+        <tr><td>Memories — your written note and the date attached to a plant</td><td>The same database</td></tr>
+        <tr><td>Photos you attach to a memory</td><td>Copied into the app's private documents folder</td></tr>
+        <tr><td>Your settings, reminder time, and whether you have seen the intro</td><td>The system's standard app-preferences store</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Photos</h2>
+  <p>When you attach a photo to a memory, the app asks your operating system for permission to open the camera or your photo library. That prompt is the system's, and you can refuse it — the rest of the app carries on working without photos.</p>
+  <p>If you pick a photo, the app copies it into its own private folder so that the memory still has its picture if the original is later deleted from your library. <strong>That copy is never uploaded.</strong> The app does not read the rest of your photo library, and it does not look at any photo you did not choose.</p>
+
+  <h2>Reminders and notifications</h2>
+  <p>If you turn on a daily reminder, or run a timed session, the app schedules a notification. These are created and delivered entirely by your own device. Nothing is sent through a push service, and no notification content leaves your phone.</p>
+
+  <h2>Exporting and importing</h2>
+  <p>Settings offers "Export as JSON", which writes a single file containing your good works, memories and plants, with photos embedded, and hands it to your system's share sheet. Where that file goes next is entirely your choice — you might save it to your own files, or send it to yourself.</p>
+  <p>I do not receive a copy, and the app does not send the export anywhere on its own. Importing works the other way and reads a file you choose. Treat an export the way you would any personal document: it contains your notes and photos in plain form.</p>
+
+  <h2 id="advertising">Advertising</h2>
+  <p>The app can show advertising supplied by <strong>Google AdMob</strong>. Where ads are shown, Google's advertising technology may collect and process information about your device in order to select, deliver and measure those ads. Depending on your settings and region, that can include:</p>
+  <ul>
+    <li>A resettable advertising identifier provided by your device</li>
+    <li>Your IP address, and coarse location derived from it</li>
+    <li>Device and app information, such as model, operating system version and app version</li>
+    <li>Interactions with the ads themselves, such as whether one was seen or tapped</li>
+  </ul>
+  <p>This information is collected by Google, not by me. I never see it in a form that identifies you; what I see is aggregate reporting, such as how many ads were shown. How Google handles it is set out in <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google's Privacy &amp; Terms</a>.</p>
+  <p>You are in control of this at the device level. On iOS, ad tracking is governed by <em>Settings → Privacy &amp; Security → Tracking</em>. On Android, see <em>Settings → Privacy → Ads</em>, where you can reset or delete your advertising ID. You can also opt out of personalised advertising through <a href="https://adssettings.google.com/" target="_blank" rel="noopener noreferrer">Google Ad Settings</a>.</p>
+
+  <div class="note">
+    <h3>Rewarded ads</h3>
+    <p>Some ads are optional ones you choose to watch in exchange for something in the app. Choosing not to watch them never removes a feature you already had.</p>
+  </div>
+
+  <h2>What the app does not do</h2>
+  <ul>
+    <li>There is <strong>no account</strong> and no sign-in. I hold no user records, because there are none to hold.</li>
+    <li>There is <strong>no analytics or crash-reporting service</strong>. I do not track how you use the app, which screens you open, or how often you come back.</li>
+    <li>I do not sell, rent or share your information. Not to advertisers, not to data brokers, not to anyone.</li>
+    <li>The app does not read your contacts, your calendar, your messages, your files, or your precise location.</li>
+    <li>The app does not build a profile of you, and it does not follow you across other apps or websites.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Good Work Garden is not directed at children, and I do not knowingly collect information from children. The app is intended for a general audience. If you believe a child has provided information through the app, please write to me and I will help, although — as above — that information stays on the device and does not reach me.</p>
+
+  <h2>Keeping and deleting what you have</h2>
+  <p>Because your data lives on your device, you control its lifetime directly:</p>
+  <ul>
+    <li><strong>Delete the app</strong> and the operating system removes its private storage: the database, the photos it copied, and its settings. This cannot be undone, so export first if you want to keep anything.</li>
+    <li><strong>Import a backup</strong> from Settings and it replaces what is currently on the device.</li>
+    <li>There is no "delete my account" to request, because there is no account and no copy of your data anywhere but your phone.</li>
+  </ul>
+  <p>I keep nothing after you stop using the app, for the simple reason that I never had it.</p>
+
+  <h2>Your rights</h2>
+  <p>Privacy laws such as the GDPR and the CCPA give you rights to see, correct, export and delete personal information a company holds about you. I hold none — so in practice those rights are exercised directly in the app: your data is visible on screen, editable, exportable from Settings, and deletable by removing the app. For the advertising information Google processes, exercise your rights through the Google links above.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If the app changes in a way that affects your privacy, I will update this page and change the date at the top. Meaningful changes will also be noted in the app's release notes on its store listing. Continuing to use the app after a change means the updated policy applies.</p>
+
+  <h2>Contact</h2>
+  <p>Questions, corrections, or anything that reads wrong to you — <a href="mailto:farazahmedabir09@gmail.com">farazahmedabir09@gmail.com</a>. I read everything sent there.</p>
+
+  <footer>
+    Good Work Garden · <span style="font-variant-numeric: tabular-nums;">com.farazinc.goodworkgarden</span><br>
+    Faraz Ahmed Abir · <a href="mailto:farazahmedabir09@gmail.com">farazahmedabir09@gmail.com</a>
+  </footer>
+
+</main>
+</body>
+</html>
